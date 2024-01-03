@@ -8,16 +8,20 @@ SCREEN_HEIGHT = 600
 
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
+# rectangle 
 player = pygame.Rect((300, 250, 50, 50))
 
 # loop
 run = True
 while run:
 
+# screen color
     screen.fill((0, 0, 0))
 
+# rectangle color
     pygame.draw.rect(screen, (255, 0, 0), player)
 
+# controls
     key = pygame.key.get_pressed()
     if key[pygame.K_a] == True:
         player.move_ip(-1, 0)
