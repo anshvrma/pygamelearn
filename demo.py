@@ -152,50 +152,35 @@
 
 
 """Rock, Paper, Scissors game"""
-import random
+# import random
 
-def rslt(player, comp):
-    if comp == player:
-        return 0
+# def rslt(player, comp):
+#     if comp == player:
+#         return 0
     
-    if (comp == 0 and player == 2):
-        return -1
+#     if (comp == 0 and player == 2):
+#         return -1
     
-    if (comp == 1 and player == 0):
-        return -1
+#     if (comp == 1 and player == 0):
+#         return -1
     
-    if (comp == 2 and player == 1):
-        return -1
+#     if (comp == 2 and player == 1):
+#         return -1
     
-    return 1
-    
-# comp = random.randint(0, 2)
-# player = int(input("0 for Rock, 1 for Paper and 2 for Scissors:\n"))
+#     return 1
 
-# score = rslt(player, comp)
-# print("You: ", player)
-# print("computer: ", comp)
+# run = True
+# while run:
+#     player = int(input("0 for Rock, 1 for Paper and 2 for Scissors:\n"))
+#     comp = random.randint(0, 2)
+#     score = rslt(player, comp)
+#     print("You: ", player)
+#     print("computer: ", comp)
 
-# if (score == 0):
-#     print("it's a Draw")
-# elif (score == 1):
-#     print("You Won!")
-# else:
-#     print("You Lose!")
-
-
-run = True
-while run:
-    player = int(input("0 for Rock, 1 for Paper and 2 for Scissors:\n"))
-    comp = random.randint(0, 2)
-    score = rslt(player, comp)
-    print("You: ", player)
-    print("computer: ", comp)
-
-    if (score == 0):
-        print("it's a Draw")
-    elif (score == -1):
-        print("You Lose!")
-    else:
-        print("You Won!")
-        run = False
+#     if (score == 0):
+#         print("it's a Draw")
+#     elif (score == -1):
+#         print("You Lose!")
+#     else:
+#         print("You Won!")
+#         run = False
