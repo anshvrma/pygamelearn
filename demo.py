@@ -186,4 +186,12 @@
 #         run = False
 
 """Clear the Clutter"""
-import os
+# import os
+
+# files = os.listdir("abc")
+# i = 1
+# for file in files:
+#     if file.endswith(".txt"):
+#         os.rename(f"abc/{file}", f"abc/{i}.txt")
+#         i = i +1
+
