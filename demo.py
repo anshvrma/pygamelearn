@@ -230,3 +230,12 @@
 # while (food := input("what food do you like? ")) != "quit":
 #     foods.append(food)
 
+"""text-to-speech"""
+# import pyttsx3
+
+# text_speech = pyttsx3.init()
+
+# answer = input("What do you want to convert?\n")
+# text_speech.say(answer)
+# text_speech.runAndWait()
+
