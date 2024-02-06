@@ -239,3 +239,18 @@
 # text_speech.say(answer)
 # text_speech.runAndWait()
 
+"""News app api"""
+# import requests
+# import json
+
+# query = input("What type of news are you intrested in?\n")
+# url= f"https://newsapi.org/v2/everything?q={query}&from=2024-01-06&sortBy=publishedAt&apiKey=e2545795a9f74e14b137a48ce3307064"
+
+# r = requests.get(url)
+# news= json.loads(r.text)
+
+# for article in news["articles"]:
+#     print(article["title"])
+#     print(article["description"])
+#     print("__________________________________________________")
+
