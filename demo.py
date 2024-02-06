@@ -195,3 +195,32 @@
 #         os.rename(f"abc/{file}", f"abc/{i}.txt")
 #         i = i +1
 
+"""command line utility"""
+# import argparse
+# import requests
+
+# def DownloadFile(url, local_filename):
+#     if local_filename is None:
+#         local_filename = url.split('/')[-1]
+#     r = requests.get(url)
+#     f = open(local_filename, 'wb')
+#     for chunk in r.iter_content(chunk_size=512 * 1024): 
+#         if chunk: # filter out keep-alive new chunks
+#             f.write(chunk)
+#     f.close()
+#     return 
+# parser = argparse.ArgumentParser()
+
+# #add command line arguments
+# parser.add_argument("url", help= "Link of the file to download")
+# # parser.add_argument("output", help= "by which name you want to save the file")
+# parser.add_argument("-o", "--output", help= "by which name you want to save the file", default= None)
+
+
+# # parser the argument
+# args = parser.parse_args()
+
+# #use the argument in code
+# print(args.url)
+# print(args.output)
+# DownloadFile(args.url, args.output)
