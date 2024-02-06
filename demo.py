@@ -224,3 +224,9 @@
 # print(args.url)
 # print(args.output)
 # DownloadFile(args.url, args.output)
+
+"""walrus operator"""
+# foods = list()
+# while (food := input("what food do you like? ")) != "quit":
+#     foods.append(food)
+
